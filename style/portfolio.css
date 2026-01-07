@@ -18,11 +18,25 @@
     color: white;
     cursor: pointer;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
 /* main style */
 header{
     background-color: #FFF8F3;
-    background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;;
+    background: url(../images/developer.png), url(../images/header_bg.png) ,#FFF8F3;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     padding-top:50px;
@@ -82,8 +96,34 @@ nav .menu a{
     color:#757575;
     line-height: 30px;
     margin-bottom: 30px;
+    padding: 0 20px;
+    display: inline-block
 }
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top:130px;
+
+}
+.about-container{
+    width:71%;
+    max-width: 1140px;
+    margin:0 auto;
+    text-align: center;
+    background: #FFF8F3;
+    padding:131px 156px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    gap: 30px;
+}
+.info-card p{
+    font-size: 20px;
+    color:#757575;
+    line-height: 30px;
+
 }
